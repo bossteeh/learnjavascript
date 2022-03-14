@@ -25,7 +25,7 @@ var question = prompt("Enter your address:");
 document.getElementById("address").innerHTML = question;
 
 var question = prompt("Enter your phone-number:");
-document.getElementById("number").innerHTML = question;
+document.getElementById("number").innerHTML = question; 
 
 // var username = prompt("Enter your name:");
 // document.getElementById("name").innerHTML = username;
@@ -43,8 +43,4 @@ console.log(num1 ** num2)
 console.log(num1 % num2)
 
 
-/* 
-ASSIGNMENT
 
-Write a program with javascript to calculate the number of seconds in a week 
-// then display your  answer on the html webpage */
