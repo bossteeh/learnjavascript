@@ -1,4 +1,4 @@
-var x = 5;
+ /* var x = 5;
 var y = 6;
 var z = x + y;
 console.log(z+x)
@@ -43,4 +43,39 @@ console.log(num1 ** num2)
 console.log(num1 % num2)
 
 
+var datas = ("Simeon", "Efe", "Tunde", "Walexy", "Bunmi")
+document.getElementById("p").innerHTML = "Best Student";
+*/
 
+const data = ["Simeon", "Efe", "Tunde", "Walexy", "Bunmi", "Tolu"]
+
+for (let i=0; i < data.length; i++) {
+    const element = data[i];
+    // console.log(element)
+    if (element == "Bunmi") {
+        console.log(element + " " + "is a girl");
+      }
+      else {
+        console.log (element + " " + "is a boy");
+      }
+}
+
+
+
+
+
+// function myFunction() {
+//     var name;
+//     const gender = ("Simeon", "Efe", "Tunde", "Walexy", "Bunmi", "Tolu")
+//     if ( gender = "Bunmi") {
+//       gender = "She's a girl";
+//     } else {
+//       name = "He's a boy";
+//     }
+//     document.getElementById("gender").innerHTML = gender;
+//   }
+
+// function myFunction() {
+//   fruits[fruits.length] = "Lemon";
+//   document.getElementById("demo").innerHTML = fruits;
+// }
