@@ -55,6 +55,9 @@ for (let i=0; i < data.length; i++) {
     if (element == "Bunmi") {
         console.log(element + " " + "is a girl");
       }
+      else if (element == "Simeon") {
+          console.log(element + " " + "too sabi book")
+      }
       else {
         console.log (element + " " + "is a boy");
       }
